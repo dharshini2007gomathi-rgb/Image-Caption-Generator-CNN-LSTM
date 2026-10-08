@@ -69,6 +69,9 @@ The generated caption continues until the end token is produced.
 
 ## 🔄 Project Workflow
 
+
+
+
 ```text
 Input Image
      ↓
@@ -85,29 +88,26 @@ LSTM
 Next Word Prediction
      ↓
 Generated Caption
-📝 Text Preprocessing
+---
+
+---
+
+## 📝 Text Preprocessing
 
 The captions are processed before being given to the LSTM model.
 
 The preprocessing steps include:
 
-Converting text into lowercase
-Removing unnecessary punctuation
-Tokenization
-Vocabulary creation
-Converting words into numerical sequences
-Adding start and end tokens
-Padding the sequences
-🔧 Model Training
+* Converting text into lowercase
+* Removing unnecessary punctuation
+* Tokenization
+* Vocabulary creation
+* Converting words into numerical sequences
+* Adding start and end tokens
+* Padding the sequences
 
-The CNN-LSTM model is trained using the preprocessed Flickr8K images and captions.
 
-During training:
 
-Image features are extracted using CNN.
-Captions are tokenized and converted into numerical sequences.
-Image features and caption sequences are provided to the model.
-The LSTM predicts the next word.
-The predicted word is compared with the actual word.
-The model parameters are updated based on the prediction error.
-The training process is repeated for multiple epochs.
+
+
+
