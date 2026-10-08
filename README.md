@@ -166,3 +166,12 @@ Next Word Prediction
 Generated Caption
 
 
+---
+
+
+## 🔄 Project Workflow
+
+```text
+Input Image → Image Preprocessing → CNN Feature Extraction → Image Feature Vector → Word Embedding → LSTM → Next Word Prediction → Generated Caption
+
+
