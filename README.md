@@ -90,8 +90,6 @@ Next Word Prediction
 Generated Caption
 ---
 
----
-
 ## 📝 Text Preprocessing
 
 The captions are processed before being given to the LSTM model.
