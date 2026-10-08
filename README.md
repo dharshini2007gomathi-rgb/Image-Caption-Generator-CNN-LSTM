@@ -68,29 +68,6 @@ The generation process continues until the end token is produced.
 
 ---
 
-## 🔄 Project Workflow
-
-```text
-Input Image
-     ↓
-Image Preprocessing
-     ↓
-CNN Feature Extraction
-     ↓
-Image Feature Vector
-     ↓
-Word Embedding
-     ↓
-LSTM
-     ↓
-Next Word Prediction
-     ↓
-Generated Caption
-
-
-
----
-
 ## 📝 Text Preprocessing
 
 The captions are processed before being given to the LSTM model.
@@ -106,6 +83,7 @@ The preprocessing steps include:
 * Padding the sequences
 
 ---
+
 
 ## 🔧 Model Training
 
@@ -179,3 +157,12 @@ Image-Caption-Generator-CNN-LSTM/
 │
 ├── README.md
 └── image-caption123.ipynb
+
+
+
+     ↓
+Next Word Prediction
+     ↓
+Generated Caption
+
+
